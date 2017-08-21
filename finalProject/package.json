@@ -1,0 +1,43 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "final project webApps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "MEAN",
+    "stack"
+  ],
+  "author": "Robin Van den Broeck",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-router": "^1.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "jsonwebtoken": "^7.4.3",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.7",
+    "mongoose-title-case": "0.0.4",
+    "mongoose-validator": "^1.3.2",
+    "morgan": "^1.8.2",
+    "node-restful": "^0.2.6",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1"
+  },
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "@uirouter/angularjs": "^1.0.3",
+    "jasmine": "^2.7.0",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}

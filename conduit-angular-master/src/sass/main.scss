@@ -1,0 +1,15 @@
+/*
+  Feel free to include your own styles and/or override Conduit/Bootstrap
+  SASS variables.
+
+  More info on how to modify the Conduit SASS styles can be found at
+  https://github.com/GoThinkster/conduit-sass
+*/
+
+// Override Conduit's primary color site-wide (default is green)
+// $brand-primary: #00A1D6;
+
+
+
+// Include Conduit SASS files (which also includes Bootstrap 4)
+@import '../../node_modules/conduit-sass/scss/conduit.scss';
